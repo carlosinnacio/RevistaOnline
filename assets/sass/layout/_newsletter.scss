@@ -1,0 +1,24 @@
+.newsletter {
+    width: 100%;
+    background-color: $grey;
+    height: 230px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.newsletter-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.newsletter-group {
+    padding-bottom: 10px;
+    button {
+        background-color: $salmon;
+        color: white;
+        padding: 3px;
+        border: none;
+        width: 100px;
+    }
+}

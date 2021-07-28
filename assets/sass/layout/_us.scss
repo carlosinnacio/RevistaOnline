@@ -1,0 +1,49 @@
+.us {
+    width: 30%;
+    background-color: $salmon;
+    color: white;
+    float: right;
+    text-align: center;
+    height: 100%;
+}
+
+.us-text {
+   text-align: center;
+   margin: 5%;
+   font-size: 15px;
+   width: 90%;
+   border-bottom: solid 1px $petrol;
+}
+
+.us-tags {
+    text-align: center;
+    margin: 20px;
+    border-bottom: solid 1px $petrol;
+    margin-top: 0;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding:0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        margin:10px;
+    }
+    li{
+        display: inline-block;
+        margin: 5px;
+        background-color: $petrol;
+        width: 90px;
+        height: 25px;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+}
+
+.top-news__item {
+    padding-bottom: 20px;
+    h4 {
+        margin-bottom: 5px;
+    }
+}
